@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Constantia";
+    src: local("Constantia"), url(./assets/fonts/constani.ttf) format("truetype");
+}
+
+
+body
+{
+    margin:0px;
+    background-color: black;
+}
+*
+{
+    color:white
+}
