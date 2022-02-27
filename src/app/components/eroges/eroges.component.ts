@@ -14,7 +14,7 @@ export class ErogesComponent implements OnInit {
   ngAfterViewInit() {
     if(window.location.pathname==="/sukebe-games/eroges" || window.location.pathname==="/eroges" )
     {
-      this.elementRef.nativeElement.ownerDocument.body.style.backgroundImage = 'url(./assets/background_ero.JPG)';
+      this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = 'white';
     }
 
 }
