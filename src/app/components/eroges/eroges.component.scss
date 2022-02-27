@@ -2,22 +2,35 @@ img
 {
     margin-left: 5%;
     border-radius: 8px;
-    vertical-align: middle;
 
 }
 #titulo
 {
     font-size: 200%;
-    margin-left: 25%;
-
+    margin:0%;
+    text-align: center;
     
 }
 #contenido
 {
+    font-size: 120%;
+    margin-left: 3%;
+}
 
-    //vertical-align: middle;
+.title_box
+{
+    vertical-align: center;
+    border-color: white;
+    background-color: pink;
+    opacity: 1;
     margin-left: 10%;
-    width: 200px;
+    margin-right: 10%;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    align-items: center;
+    opacity: 0.9;
+    padding-bottom: 2%;
 
 }
 
@@ -28,7 +41,13 @@ img
     border-color: white;
     background-color: pink;
     opacity: 1;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display:flex;
+    align-items: center;
+    opacity: 0.9;
+    padding-bottom: 1%;
 }

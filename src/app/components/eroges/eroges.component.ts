@@ -14,14 +14,14 @@ export class ErogesComponent implements OnInit {
   ngAfterViewInit() {
     if(window.location.pathname==="/sukebe-games/eroges" || window.location.pathname==="/eroges" )
     {
-      this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = 'white';
+      this.elementRef.nativeElement.ownerDocument.body.style.backgroundImage = 'url(./assets/background_ero.JPG)';
     }
 
 }
 
 
-  titulo:string[]=["otome","eroge"]
-  contenido:string[]=["habia una vez","kya onii-chan, mira onii-chan dejame que te sea sincero, esto no es nada mas que una prueba para ver como funcionan los textos largos nyanyan motherfucker"]
+  titulo:string[]=["otome","Eroge prueba de longitud de titulos"]
+  contenido:string[]=["habia una vez","kya onii-chan, mira onii-chan dejame que te sea sincero, esto no es nada mas que una prueba para ver como funcionan los textos largos nyanyan motherfucker aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"]
 
 
 }
