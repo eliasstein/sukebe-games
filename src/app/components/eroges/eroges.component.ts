@@ -21,7 +21,7 @@ export class ErogesComponent implements OnInit {
 
 
   titulo:string[]=["otome","Eroge prueba de longitud de titulos"]
-  contenido:string[]=["habia una vez","kya onii-chan, mira onii-chan dejame que te sea sincero, esto no es nada mas que una prueba para ver como funcionan los textos largos nyanyan motherfucker aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"]
+  contenido:string[]=["habia una vez","kya onii-chan, mira onii-chan dejame que te sea sincero, esto no es nada mas que una prueba para ver como funcionan los textos largos nyanyan motherfucker"]
 
 
 }
