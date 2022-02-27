@@ -13,7 +13,7 @@ import { ContactanosComponent } from './components/contactanos/contactanos.compo
 import { InfoComponent } from './components/info/info.component';
 import { AdvertenciaComponent } from './components/advertencia/advertencia.component';
 import { MainComponent } from './components/main/main.component';
-import { CommentsComponent } from './components/comments/comments.component';
+import { DisqComponent } from './components/disq/disq.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { CommentsComponent } from './components/comments/comments.component';
     InfoComponent,
     AdvertenciaComponent,
     MainComponent,
-    CommentsComponent
+    DisqComponent
   ],
   imports: [
     BrowserModule,
