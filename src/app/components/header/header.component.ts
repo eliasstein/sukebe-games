@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
     if(window.location.pathname==="/sukebe-games/eroges" || window.location.pathname==="/eroges" )
     {
       //this.image = "assets/a.jpg"
-      this.image = "assets/header_ero.png"
+      this.image = "assets/a.jpg"
     }
   }
   caca:string="green"
