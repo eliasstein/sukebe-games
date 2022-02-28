@@ -16,7 +16,6 @@ import { MainComponent } from './components/main/main.component';
 import { DisqComponent } from './components/disq/disq.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatPaginatorModule, PageEvent} from '@angular/material/paginator';
-import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
     AdvertenciaComponent,
     MainComponent,
     DisqComponent,
-    PaginatorComponent
   ],
   imports: [
     BrowserModule,
