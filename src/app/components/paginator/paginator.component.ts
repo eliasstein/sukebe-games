@@ -35,8 +35,7 @@ export class PaginatorComponent implements OnInit {
   {
     this.current_page-=1
     alert(this.current_page)
-    
-    alert(link[0])
+
   }
   
   nextPage()
