@@ -1,0 +1,16 @@
+.icono
+{
+    text-align: right;
+    float:right;
+    transition: 0.5s;
+    right: -40px;
+    position: relative;
+
+}
+.icono:hover
+{
+    position: absolute;
+    right: +3px;
+    transition: 0.5s;
+
+}

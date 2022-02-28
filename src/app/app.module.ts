@@ -14,6 +14,9 @@ import { InfoComponent } from './components/info/info.component';
 import { AdvertenciaComponent } from './components/advertencia/advertencia.component';
 import { MainComponent } from './components/main/main.component';
 import { DisqComponent } from './components/disq/disq.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatPaginatorModule, PageEvent} from '@angular/material/paginator';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +29,15 @@ import { DisqComponent } from './components/disq/disq.component';
     InfoComponent,
     AdvertenciaComponent,
     MainComponent,
-    DisqComponent
+    DisqComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DisqusModule.forRoot('sukebe-games')
+    DisqusModule.forRoot('sukebe-games'),
+    BrowserAnimationsModule,
+    MatPaginatorModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
@@ -39,4 +45,7 @@ import { DisqComponent } from './components/disq/disq.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+
+ }
