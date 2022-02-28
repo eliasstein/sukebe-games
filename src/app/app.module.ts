@@ -14,8 +14,6 @@ import { InfoComponent } from './components/info/info.component';
 import { AdvertenciaComponent } from './components/advertencia/advertencia.component';
 import { MainComponent } from './components/main/main.component';
 import { DisqComponent } from './components/disq/disq.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatPaginatorModule, PageEvent} from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -34,8 +32,6 @@ import {MatPaginatorModule, PageEvent} from '@angular/material/paginator';
     BrowserModule,
     AppRoutingModule,
     DisqusModule.forRoot('sukebe-games'),
-    BrowserAnimationsModule,
-    MatPaginatorModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
