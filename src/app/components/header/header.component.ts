@@ -11,10 +11,12 @@ export class HeaderComponent implements OnInit {
 
   image:string="assets/header.jpg"
   ngOnInit(): void {
+    /*
     //alert(window.location.pathname)
     if(window.location.pathname==="/sukebe-games/eroges" || window.location.pathname==="/eroges" )
     {
       this.image = "assets/a.jpg"
     }
+    */
   }
 }
